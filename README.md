@@ -15,7 +15,7 @@
 ## Principe général de collaboration
 
 | Etudiant.e  |   Router    |   Renderer    |
-| :---------: | :--------: |
+| :---------: | :--------: |:--------: |
 | Mathilde C. | [] |[] |
 |   Kamo G.   | [] |[] |
 | Mathieu L.  | [] | [] |
