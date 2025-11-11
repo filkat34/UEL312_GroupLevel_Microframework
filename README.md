@@ -28,15 +28,14 @@ Deux memmbres de l'équipe travaillent sur l'implémentation du Router et deux a
 10 issues ont été identifiées en fonction des classes et des fonctions du projet à implémenter :
 
 1. Chaque membre de l'équipe s'assigne une issue en fonction de son choix dans la répartition du travail (Router/Renderer).
-2. Il crée une branche sur laquelle il travaille sur son implémentation en lui donnant un nom correspondant à ce qu'il implément. Exemple : ```feature/classTemplateView```
-3. Une fois son travail fini, il fait une demande de tirage et recommence de puis le début le processus jusqu'à ce que toutes le issues soient traitées.
+2. Il crée une branche sur laquelle il travaille sur son implémentation en lui donnant un nom correspondant à ce qu'il implément. Exemples : ```feature/BaseView/classTemplateView```, ```feature/TwigRenderer/fnrender```
+3. Une fois son travail fini, il fait une demande de tirage et recommence depuis le début le processus jusqu'à ce que toutes le issues soient traitées.
 
 ### Code review de finalisation
 
 Chaque membre de l'équipe relit au fil de l'eau les demandes de tirage des autres et commente, fait des suggestions.
 
-Une code review doit être prévue suffisamment en avance par rapport à la date de rendu (au moins J-2) afin qu'on puisse fusionner les branches et faire des tests.
-
+Une _code review_ doit être prévue suffisamment en avance par rapport à la date de rendu (au moins J-2) afin qu'on puisse fusionner les branches et faire des tests.
 
 ## Consignes
 ## cvtic-micro-framework
