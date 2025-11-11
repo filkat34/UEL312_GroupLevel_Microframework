@@ -19,7 +19,7 @@
 | Mathilde C. | [] |[] |
 |   Kamo G.   | [] |[] |
 | Mathieu L.  | [] | [] |
-| Filippos K. | [] | [x] |
+| Filippos K. | [] | - [x] |
 
 ## Consignes
 ## cvtic-micro-framework
