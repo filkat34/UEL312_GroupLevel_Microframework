@@ -16,7 +16,7 @@
 
 ### Répartition du travail
 
-Deux memmbres de l'équipe travaillent sur l'implémentation du Router et deux autres sur l'implémentation de Renderer.
+Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux autres sur l'implémentation du _Renderer_.
 
 |   Router    |   Renderer  |
 | :---------: | :--------:  |
@@ -25,11 +25,13 @@ Deux memmbres de l'équipe travaillent sur l'implémentation du Router et deux a
 
 ### Principe général de fonctionnement
 
-10 issues ont été identifiées en fonction des classes et des fonctions du projet à implémenter :
+10 issues ont été identifiées en fonction des classes et des fonctions du framework à implémenter :
 
 1. Chaque membre de l'équipe s'assigne une issue en fonction de son choix dans la répartition du travail (Router/Renderer).
-2. Il crée une branche sur laquelle il travaille sur son implémentation en lui donnant un nom correspondant à ce qu'il implément. Exemples : ```feature/BaseView/classTemplateView```, ```feature/TwigRenderer/fnrender```
-3. Une fois son travail fini, il fait une demande de tirage et recommence depuis le début le processus jusqu'à ce que toutes le issues soient traitées.
+2. Il crée une branche sur laquelle il travaille sur l'issue choisie en lui donnant un nom correspondant à ce qu'il implémente. Exemples : ```feature/BaseView/classTemplateView```, ```feature/TwigRenderer/fnrender```
+3. Une fois son travail fini, il fait une demande de tirage.
+
+Une fois une issue traitée, on s'en assigne une autre et le processus recommence jusqu'à ce qu'il y en ait plus.
 
 ### Code review de finalisation
 
