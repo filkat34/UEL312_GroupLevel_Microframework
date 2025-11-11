@@ -1,3 +1,27 @@
+## Membres du groupe
+
+| Etudiant.e  |   Alias    |
+| :---------: | :--------: |
+| Mathilde C. | Clouddy23  |
+|   Kamo G.   | Spaghette5 |
+| Mathieu L.  |  mathleys  | 
+| Filippos K. |  filkat34  | 
+
+## Objectifs
+
+- [x] Mobiliser ses connaissances en POO pour finaliser un projet de Micro-Framework codé en PHP
+- [x] Savoir utiliser le client git et la plateforme Github en vue de collaborer au sein d'une équipe de développement.
+
+## Principe général de collaboration
+
+| Etudiant.e  |   Router    |   Renderer    |
+| :---------: | :--------: |
+| Mathilde C. | [] |[] |
+|   Kamo G.   | [] |[] |
+| Mathieu L.  | [] | [] |
+| Filippos K. | [] | [x] |
+
+## Consignes
 ## cvtic-micro-framework
 
 Boilerplate du projet micro-framework à réaliser en groupe.
