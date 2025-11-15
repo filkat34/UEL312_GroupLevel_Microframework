@@ -21,7 +21,7 @@ Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux 
 |   Router    |   Renderer  |
 | :---------: | :--------:  |
 | Filippos    |             |
-|             |             |
+| Mathilde    |             |
 
 ### Principe général de fonctionnement
 
