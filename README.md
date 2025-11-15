@@ -20,8 +20,8 @@ Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux 
 
 |   Router    |   Renderer  |
 | :---------: | :--------:  |
-| Filippos    |             |
-| Mathilde    |             |
+| Filippos    | Kamo        |
+| Mathilde    | Mathieu     |
 
 ### Principe général de fonctionnement
 
