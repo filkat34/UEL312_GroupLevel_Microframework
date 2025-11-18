@@ -47,14 +47,14 @@ Se rendre à la racine du projet et lancer le serveur PHP intégré avec ``php -
 
 ![Terminal_serveur](docs/tests.png)
 
-Tester d'abord le bon fonctionnement de la ![HTMLView](http://localhost:8000/html)
+Tester d'abord le bon fonctionnement de la _HTMLView_ en se rendant sur ``http://localhost:8000/html``
 
 ![html_view](docs/htmlRendering.png)
 
-Tester ensuite le bon fonctionnement de la ![JSONView](http://localhost:8000/json)
+Tester ensuite le bon fonctionnement de la _JSONView_ en se rendant sur ``http://localhost:8000/json``
 
 ![json_view](docs/JSONRendering.png)
 
-Tester pour finir le bon fonctionnement de la ![TemplateView](http://localhost:8000/book/1) et des liens dynamiques (book/1, book/2, book/3)
+Tester pour finir le bon fonctionnement de la _TemplateView_ et des liens dynamiques (book/1, book/2, book/3) en se rendant sur ``http://localhost:8000/book/1``
 
 ![template_view](docs/twigTemplateRendering.png)
