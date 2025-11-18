@@ -20,10 +20,10 @@
 
 Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux autres sur l'implémentation du _Renderer_.
 
-|   Router    |   Renderer/Views  |
-| :---------: | :--------:        |
-| Filippos    | Kamo              |
-| Mathilde    | Mathieu           |
+|   Router    |   Renderer/Views  | Tests |
+| :---------: | :--------:        | :--------: |
+| Filippos    | Kamo              | Filippos   |
+| Mathilde    | Mathieu           |            |
 
 ### Principe général de fonctionnement
 
