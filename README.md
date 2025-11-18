@@ -18,7 +18,7 @@
 
 ### Répartition du travail
 
-Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux autres sur l'implémentation du _Renderer_.
+Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux autres sur l'implémentation du _Renderer_ et des différentes _Views_.
 
 |   Router    |   Renderer/Views  | Tests |
 | :---------: | :--------:        | :--------: |
