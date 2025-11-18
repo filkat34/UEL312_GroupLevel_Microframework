@@ -31,7 +31,7 @@ Plusieurs issues ont été identifiées en fonction des classes et des fonctions
 
 1. Chaque membre de l'équipe s'assigne une issue en fonction de son choix dans la répartition du travail (Router/Renderer).
 2. Il crée une branche sur laquelle il travaille sur l'issue choisie en lui donnant un nom correspondant à ce qu'il implémente. Exemples : ```feature/BaseView/classTemplateView```, ```feature/TwigRenderer/fnrender```
-3. Une fois son travail fini, il fait une demande de tirage.
+3. Une fois son travail fini, il fait une demande de tirage et dans la desceription, ne pas oublier de lier la demande à une issue en mettant "Fixes #[numéro de l'issue concernée]" (par exemple : "Fixes #11"). Github se chargera de fermer l'issue en question une fois la fusion de la demande faite.
 
 Une fois une issue traitée, on s'en assigne une autre et le processus recommence jusqu'à ce qu'il y en ait plus.
 
