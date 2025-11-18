@@ -1,3 +1,5 @@
+# UE L312 - POO : travail du groupe LEVEL 
+
 ## Membres du groupe
 
 | Etudiant.e  |   Alias    |
@@ -41,7 +43,7 @@ Une _code review_ doit être prévue suffisamment en avance par rapport à la da
 
 ### Tests fonctionnels manuels (méthode GET)
 
-Se rendre à la racine du projet et lancer le serveur PHP intégré avec ``php -S localhost:8000`
+Se rendre à la racine du projet et lancer le serveur PHP intégré avec ``php -S localhost:8000``
 
 ![Terminal_serveur](docs/tests.png)
 
