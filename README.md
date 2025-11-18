@@ -27,7 +27,7 @@ Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux 
 
 ### Principe général de fonctionnement
 
-10 issues ont été identifiées en fonction des classes et des fonctions du framework à implémenter :
+Plusieurs issues ont été identifiées en fonction des classes et des fonctions du framework à implémenter :
 
 1. Chaque membre de l'équipe s'assigne une issue en fonction de son choix dans la répartition du travail (Router/Renderer).
 2. Il crée une branche sur laquelle il travaille sur l'issue choisie en lui donnant un nom correspondant à ce qu'il implémente. Exemples : ```feature/BaseView/classTemplateView```, ```feature/TwigRenderer/fnrender```
