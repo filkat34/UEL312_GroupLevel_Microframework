@@ -46,8 +46,6 @@ En plus des réunions intermédiaires et des échanges dans les chats du groupe,
 | 1          | 19/11      | Présentation du travail effectué par chacun, harmonisation de la façon de concevoir le fonctionnement du framework, première fusion de branches terminées.   |
 | 2    | 28/11   | Relecture et fusion des dernières branches, tests manuels et unitaires (PhP Unit), dépôt du lien Github sur Moodle            |
 
-Une _code review_ doit être prévue suffisamment en avance par rapport à la date de rendu (au moins J-2) afin qu'on puisse fusionner les branches et faire des tests.
-
 ### Tests fonctionnels manuels (méthode GET)
 
 Se rendre à la racine du projet et lancer le serveur PHP intégré avec ``php -S localhost:8000``
