@@ -25,7 +25,7 @@ Deux membres de l'équipe travaillent sur l'implémentation du _Router_ et deux 
 | Filippos    | Kamo              | Filippos   |
 | Mathilde    | Mathieu           |            |
 
-### Principe général de fonctionnement
+### Procédure à suivre
 
 Plusieurs issues ont été identifiées en fonction des classes et des fonctions du framework à implémenter :
 
@@ -35,9 +35,16 @@ Plusieurs issues ont été identifiées en fonction des classes et des fonctions
 
 Une fois une issue traitée, on s'en assigne une autre et le processus recommence jusqu'à ce qu'il y en ait plus.
 
-### Code review de finalisation
+### Calendrier des _code reviews_
 
-Chaque membre de l'équipe relit au fil de l'eau les demandes de tirage des autres et commente, fait des suggestions.
+Chaque membre de l'équipe relit au fil de l'eau les demandes de tirage des autres et commente, fait des suggestions en attendant les code reviews.
+
+En plus des réunions intermédiaires et des échanges dans les chats du groupe, deux réunions sont fixées :
+
+| Code Review n. |   Date  | Objectif |
+| :-------:  | :--------: | :--------: |
+| 1          | 19/11      | Présentation du travail effectué par chacun, harmonisation de la façon de concevoir le fonctionnement du framework, première fusion de branches terminées.   |
+| 2    | 28/11   | Relecture et fusion des dernières branches, tests manuels et unitaires (PhP Unit), dépôt du lien Github sur Moodle            |
 
 Une _code review_ doit être prévue suffisamment en avance par rapport à la date de rendu (au moins J-2) afin qu'on puisse fusionner les branches et faire des tests.
 
