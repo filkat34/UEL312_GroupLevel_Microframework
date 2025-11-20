@@ -66,7 +66,8 @@ class SimpleRouter implements Router
      * Instancie le moteur de rendu des vues.
      * @param Renderer $engine Moteur de rendu des vues
      */
-    public function __construct(Renderer $engine) {
+    public function __construct(Renderer $engine)
+    {
         $this->engine = $engine;
     }
 
@@ -89,8 +90,45 @@ class SimpleRouter implements Router
         }
     }
 
+    // Création méthode serve() 
     public function serve(mixed ...$args): void
     {
-        // TODO
+        $request = new Request(...$args); // Création objet Request avec tous les arguments
+        $path = $request->getPathInfo(); // Récupération du chemin de la requête
+        if ($path === '') { // Si chemin est vide alors on Symfony le défini comme ça ''
+            $path = '/'; // Mais on préfère le définir comme ça / (mieux pour URL)
+        }
+
+        // Check dans Static Routes
+        if (isset($this->staticRoutes[$path])) { // S'il existe une route statique qui correspond au path
+            $route = $this->staticRoutes[$path]; // Alors on récupère l'objet Route de cette URL
+            $response = $route->call($request, $this->engine); // Appel méthode call() pour générer la Response en créant la View et en appelant render
+            $response->send(); // Symfony envoie Response au client navigateur
+            return; // Stop exécution méthode serve()
+        }
+
+        // Check dans Dynamic Routes (/book/:id)
+        foreach ($this->dynamicRoutes as $entry) { // Pour chaque route dynamique en entrée
+
+            // Si regex correspond au path requête 
+            if (preg_match($entry['pattern'], $path, $matches)) {
+
+                // Pour chaque valeurs trouvée par regex
+                foreach ($matches as $key => $value) {
+                    if (!is_string($key)) {
+                        continue; // Si la clé n'est pas string (donc numérique) on passe
+                    }
+                    $request->attributes->set($key, $value); // On met la valeur dans les paramètres de la requête pour que View y accède
+                }
+
+                $route = $entry['route']; // Récupération objet Route pour cette entrée/URL
+                $response = $route->call($request, $this->engine); // Puis appel méthode call() qui crée View et appelle render() pour générer Response
+                $response->send(); // Envoi Response au client navigateur
+                return; // Stop exécution méthode serve()
+            }
+        }
+
+        $response = new Response("404 Not Found", 404); // Si pas de route trouvée pour entrée, alors Response = 404
+        $response->send(); // Envoi Response au client navigateur
     }
 }
