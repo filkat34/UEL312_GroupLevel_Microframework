@@ -50,7 +50,9 @@ En plus des réunions intermédiaires et des échanges dans les chats du groupe,
 
 Puisque le projet, demandait avant tout de coder des views, on a focalisé nos tests manuels sur le rendering et le routage.
 
-Pour tester le bon fonctionnement, il faut e rendre à la racine du projet et lancer le serveur PHP intégré avec `php -S localhost:8000`
+Un dossier de tests a été créé avec différentes views (tests/views) et, à la racine du projet, un fichier index.php qui crée les instances du routeur et du rendereur, enregistre les routes et les sert.
+
+Pour tester le bon fonctionnement, il faut se rendre à la racine du projet et lancer le serveur PHP intégré avec `php -S localhost:8000`
 
 ![Terminal_serveur](docs/tests.png)
 
