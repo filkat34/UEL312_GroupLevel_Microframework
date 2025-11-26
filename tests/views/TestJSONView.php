@@ -9,10 +9,11 @@ class TestJSONView extends JSONView
 {
     protected function get(Request $request): mixed
     {
+        $timestamp = time();
         return [
             'Groupe' => 'Level',
             'Membres' => 'Filippos, Kamo, Mathieu, Mathilde',
-            'timestamp' => time()
+            'timestamp' => date("d-m-Y à H:i", $timestamp)
         ];
     }
 }
