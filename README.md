@@ -56,7 +56,7 @@ Pour tester le bon fonctionnement, il faut se rendre à la racine du projet et l
 
 ![Terminal_serveur](docs/tests.png)
 
-La page d'accueil devrait afficher une templateView avec une liste de cartes de toutes les views de test implementées. Il est possible aussi de cliquer sur les liens de la navigation pour tester que le routage s'effectue correctement.
+La page d'accueil devrait afficher une templateView avec une liste de cartes de toutes les views de test implementées (intégrées à l'intérieur d' _iframes_). Il est possible aussi de cliquer sur les liens de la navigation pour tester que le routage s'effectue correctement pour chacune des views test.
 
 ![Homepage](docs/homePage.png)
 
