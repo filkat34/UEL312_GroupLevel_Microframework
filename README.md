@@ -56,6 +56,12 @@ Pour tester le bon fonctionnement, il faut se rendre à la racine du projet et l
 
 ![Terminal_serveur](docs/tests.png)
 
+La page d'accueil devrait afficher une templateView avec une liste de cartes de toutes les views de test implementées. Il est possible aussi de cliquer sur les liens de la navigation pour tester que le routage s'effectue correctement.
+
+![Homepage](docs/homePage.png)
+
+Sinon, il est possible aussi de :
+
 Tester d'abord le bon fonctionnement de la _HTMLView_ en se rendant sur `http://localhost:8000/html`
 
 ![html_view](docs/htmlRendering.png)

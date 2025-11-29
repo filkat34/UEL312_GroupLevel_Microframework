@@ -8,7 +8,7 @@ use Framework312\Router\SimpleRouter;
 use Framework312\Template\TwigRenderer;
 
 // Charger les vues de test
-require_once __DIR__ . '/tests/views/indexTests.php';
+require_once __DIR__ . '/tests/views/Homepage.php';
 require_once __DIR__ . '/tests/views/TestHTMLView.php';
 require_once __DIR__ . '/tests/views/TestJSONView.php';
 require_once __DIR__ . '/tests/views/Book.php';
@@ -20,7 +20,7 @@ $engine = new TwigRenderer(__DIR__ . '/templates/');
 $router = new SimpleRouter($engine);
 
 // Enregistrer les routes
-$router->register('/', 'indexTests');
+$router->register('/', 'Homepage');
 $router->register('/html', 'TestHTMLView');
 $router->register('/json', 'TestJSONView');
 $router->register('/book/:id', 'Book');
