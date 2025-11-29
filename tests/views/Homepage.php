@@ -14,10 +14,10 @@ class Homepage extends TemplateView
         $cards = [
             ['title' => 'HTML View', 'url' => '/html'],
             ['title' => 'JSON View', 'url' => '/json'],
-            ['title' => 'Template View (id=1)', 'url' => '/book/1'],
-            ['title' => 'Template View (id=2)', 'url' => '/book/2'],
-            ['title' => 'Template View (id=3)', 'url' => '/book/3'],
-            ['title' => 'Template View (id=invalid)', 'url' => '/book/90'],
+            ['title' => 'Book Template View (id=1)', 'url' => '/book/1'],
+            ['title' => 'Book Template View (id=2)', 'url' => '/book/2'],
+            ['title' => 'Book Template View (id=3)', 'url' => '/book/3'],
+            ['title' => 'Book Template View (id=invalid)', 'url' => '/book/90'],
         ];
 
         return ['cards' => $cards, 'groupe' => $groupe, 'ue' => $ue];

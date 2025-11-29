@@ -9,6 +9,16 @@ class TestHTMLView extends HTMLView
 {
     protected function get(Request $request): mixed
     {
-        return '<html><body><h1>Groupe : Level</h1><p>Membres : Filippos, Kamo, Mathieu, Mathilde</p></body></html>';
+        return '<html>
+        <body>
+        <h3>Groupe LEVEL :</h1>
+        <ul>
+            <li>Filippos</li>
+            <li>Kamo</li>
+            <li>Mathieu</li>
+            <li>Mathilde</li>
+        </ul>
+        </body>
+        </html>';
     }
 }
