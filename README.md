@@ -10,9 +10,16 @@
 | Filippos K. |  filkat34  |
 
 ## Objectifs
+L’objectif principal de ce projet est de concevoir et développer une application web dynamique sans recours à un CMS, en utilisant le framework Symfony 7, afin de répondre aux besoins d’un client souhaitant disposer d’un site d’actualités moderne et administrable.
 
-- [x] Mobiliser ses connaissances en POO pour finaliser un projet de Micro-Framework codé en PHP
-- [x] Savoir utiliser le client git et la plateforme Github en vue de collaborer au sein d'une équipe de développement.
+- [x] Mettre en œuvre une architecture MVC propre et structurée avec Symfony.
+- [x] Développer un front office accessible aux visiteurs, permettant : la consultation des actualités, l’affichage des trois dernières actualités sur la page d’accueil, la lecture détaillée d’une actualité, l’ajout et le signalement de commentaires, l’inscription et la connexion des utilisateurs, l’accès à des pages informatives (présentation du client, contact).
+- [x] Mettre en place un système d’authentification sécurisé avec gestion des rôles utilisateurs.
+- [x] Développer un backoffice réservé aux administrateurs pour : la gestion des actualités (création, modification, suppression), la modération des commentaires, la gestion des utilisateurs.
+- [x] Assurer la persistance des données via Doctrine ORM et une base de données relationnelle.
+- [x] Appliquer les bonnes pratiques de développement (séparation des responsabilités, sécurité, lisibilité du code).
+- [x] Faciliter le travail en équipe grâce à l’utilisation de Git et GitHub (branches, pull requests).
+- [x] Produire une application déployable et fonctionnelle, accompagnée de sa documentation technique et fonctionnelle.
 
 ## Principe général de collaboration
 
